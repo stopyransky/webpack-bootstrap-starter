@@ -1,0 +1,32 @@
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_variables";
+
+@import './base/customizations.scss';
+@import './base/resources.scss';
+
+html, body {
+    height: 100%;
+    min-height: 100%;
+    background: $bg-color;
+}
+
+body {
+    h1 {
+        width: $section-width;
+        background-color: $code-color;
+    }
+
+    h2 {
+		color: $brand-success;
+    }
+}
+
+.container {
+    position: absolute;
+    left: 0px;
+    right:0px;
+    top: 0px;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
